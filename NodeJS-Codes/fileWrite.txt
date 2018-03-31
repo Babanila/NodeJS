@@ -1,0 +1,224 @@
+Introduction
+Personal computing has been the order of the day for many years now in organizations with system
+administrators having to carry out repetitive and tedious tasks across different personal computers and
+software platforms. The ever-increasing numbers of available personal computers in the world today are
+contributed to by the lifecycle policies of organizations which require a refresh every 5 year or so. The
+increased energy requirements, cost requirements, higher storage requirements, software, operating
+systems and administrative challenges are critical indicators for a more centralized approach to
+computing. Virtual Desktop Infrastructures (VDI) provide a central management center from where
+personalized computing resources are allocated to end users and permission to applications and services
+provided based on predetermined policies. This is in addition to providing long term solutions to the
+challenges. This project work presents the detailed comparison and analysis of personal computing and
+personalized computing as presented by personal computers and VDIs respectively. VDI leverages on the
+power of virtualization to provide individualized desktops and applications to end users with a wide array
+of access options including BYOD (Bring Your own device) and remote access.
+Allianz Technology SE is the Allianz Global Group's internal shared services provider. The key purpose
+of Allianz Technology is to transform Allianz Global Group into a digital group. To achieve this, Allianz
+Technology provides a robust, secure and efficient IT infrastructure, as well as ensuring that new
+technologies and channels support the design, distribution and maintenance of the Allianz Technology
+products. One of the core services of Allianz Technology to the Allianz Global Group is the Allianz
+Virtual Client (AVC). The AVC utilizes cutting edge private cloud technology to address 3 crucial issues:
+a. Digital Standardization of the entire Allianz Global Group.
+b. Enhanced data security
+c. Cost effective and flexible workplaces
+
+This report is structured as follows to ensure proper understanding of the scope of the project. The
+introductory part provides an overview of the project, a general background provides insight to the current
+state of the project context in a bid to highlight the technological shift occurring in the personal computing
+sphere, while reviewing correlating literatures; with a bird’s eye view on the evolution of personal
+computing. Next, we delve into the world of virtual desktops and virtualization as a whole; being the
+scope of this project. The architecture, different utilization modes, cost of implementation and build a case
+for adoption via possible Return on Investment (ROI) using case studies. Present advancements, future
+improvements and a general conclusion will round off this paper.
+
+
+
+
+1. Background
+
+1.1. Definition of VDI
+Virtual Desktop Infrastructure (VDI) is the emerging desktop services delivery technology positing as the
+alternative to the traditional personal computing desktop delivery [13] [14] [15]. The general idea of VDI
+refers to a concept where operating system and applications are hosted and managed on a single/multiple
+hardware to be shared and accessed by end users without the awareness (operation-wise) that these
+resources are being shared. The end-user connection to the VDI environment is moderated by remote
+access protocols like RDP, Microsoft Remote Desktop Protocol (RDP), Citrix High Definition Experience
+(HDX) or VMware Personal Computing over Internet Protocol (PCoIP) [16] [17]. Access to the desktop
+services are via end user devices mainly known as Thin clients, which are hardware devices specifically
+designed to handle virtualization systems. Other autonomous access via fat clients and end user smart
+devices within the local corporate network or with internet access is a possibility. Using a setup similar to
+the terminal services of a combination of keyboard, mouse, monitor unit in all connection with the Thin
+client or the use of any personal computer or smart devices with internet access, end users are able to
+access desktop services such as operating systems, applications (Microsoft Word,MS Excel, Acrobat PDF
+reader. etc) and manage resources like they would on a typical fat-desktop personal computer irrespective
+of the physical location of the end user.
+Traditional personal computing is based on a model whereby many personalized computers are executing
+tasks with the aid of individual operating systems and applications [21]. The management tasks of these
+environments such as configurations and reconfiguration (maybe a complete configuration change),
+installations and uninstallations, and security policies are time consuming, challenging, expensive and
+require dedicated on-site support at all locations. The high churn rate of these personal computers and
+their apparent underutilization despite the high CAPEX cost result to low or even zero ROI. With a VDI
+environment, the idea is for all the computing is done within a central station like a capable datacenter
+while end users access desktop services like operating systems and applications remotely over a sufficient
+network using remote access protocols. This means of accessing desktop service is not without its cons
+due the minimum bandwidth required for a starting and sustaining a virtual desktop session. The upside to
+VDI is that the cost of management is significantly lower as all administrative and support processes are
+centralized within the VDI host environment. This naturally reduces the on-site labor required, centralizes
+software and hardware changes/upgrades, capacity extensions and creates a single OPEX point for
+organizations [6].
+
+
+1.2. History of Personal Computing
+From the late 1800s to late 1970s, the evolution of computing has majorly been industry-centric. Focusing
+more on providing high capacity, speed and storage for industrial and governmental processes, thus
+leaving only the option of physically massive computational entities [21] [32]. This left no room for
+personal interfacing with the computational powers of the computer. From the early 1980s, personal
+computers started making their way into people’s homes with the advent of “Acorn”, the first personal
+computer commercially made available by IBM [23] [28]. The years leading to the new millennium
+brought with it a rapid change in the ways organizations viewed and managed computing due the
+overwhelming amount of data available being generated by the millions of individuals with access to a
+personal computer and a larger network of both personal and industrial computers called the “World Wide
+Web” [28]. Organizations began to adopt the collaborative approach to work in which several people
+working on a particular project, take on individual units of the project and merge all separate units into
+one larger unit after completion. It became apparent that this made work move at a faster rate and allowed
+for a lot of creativity. A few years down the line, a realization was arrived at that for the churn rate of
+personal laptops was way higher in comparison with the ROI on the investment made on it but without an
+alternative at it were, all that was then possible was to try and stretch the lifespan of the PCs enough to
+produce some kind of ROI or at worst a break-even situation [3]. It is the combination of the technologies
+of the world wide web and personal computing that has given rise to the newer technologies such as
+“Cloud Computing” and as an aftereffect virtual computing. Since the emergence of virtualization over 15
+years ago, it has morphed from the performance and storage problems ridden technology into one with a
+more enhanced architecture, intelligent infrastructure, top notch security and infinite features that more
+than suffices for the demands of virtual desktops services and other cloud computing services such as
+Software as a Service (SaaS), Infrastructure as a Service (IaaS) and Platform as a Service (PaaS) [11].
+
+1.2.1. Why VDI
+It has become clear that the servers and other high-end IT infrastructures were being under-utilized and
+ROI on them was near impossible to achieve due to the rising operating cost associated with them and the
+end users of the services they render. It therefore became pertinent to focus on the high cost points of
+every organization’s IT infrastructure and propose a solution that compresses the cost of the overall
+implementation and maintenance of the IT infrastructure while adding more services to the infrastructure
+at no significant extra cost. This became the sole driver of the VDI technology [27] [31].
+
+1.2.2. The VDI Trend
+Virtual desktop technology made its debut into the personal computing sphere in the early 2000s with the
+promise of improving on all things remote computing especially with respect to access of corporate
+resources and ease the process of IT infrastructure and services management. This introduction was a big
+disappointment as the technological demand far surpassed the available technology VDI could provide at
+the time [11]. The major pain points then are detailed:
+
+1. Performance: The main letdown for VDI after its introduction was the constant poor performance
+of the virtual desktops. Due to the technological gap, VDIs found it difficult to manage remote
+desktop sessions, large files and increased network load. The absence of sessions monitoring, end
+user data analysis, inadequate QoS configurations, storage technology not matching VDI
+requirements, constant hardware failure and even human error due to knowledge gap all
+contributed to the failure of VDI at that time.
+
+2. Hidden Costs & Complexities: The selling point at the entry point for VDI was the ability to
+centrally control and administer all IT infrastructure - this was only going to be a possibility if the
+implementation was done appropriately. The ideal VDI setup required that the backend
+infrastructure be fully redundant, be easily expandable on storage, network and infrastructure
+levels. These requirements are costs that are typically not included in the calculation of the TCO
+(total cost of ownership) of non-corporate VDI implementations. The centralization of all IT
+infrastructure though a benefit brought with it the complexity of dealing with the high power and
+cooling demands required for operation, the intricate licensing systems and the high level of
+expertise all contributed in turning corporations in other cheaper and less complex directions.
+
+
+2.3. VDI 2.0: Advanced VDI Technology
+Since its initial failure, VDI took a backseat while most of the supporting technologies continued to
+advance independently. The 3 pillars of VDI [22]: software, hardware and infrastructure architecture had
+been the bane of VDI during its introduction (hardware and architecture especially), now boasted of major
+advancements that could now cater for the needs of VDIs in providing high-performance virtual desktops
+and high-availability infrastructure. The ability to design a VDI environment in which functions that are
+not directly affecting end-user experience while still retaining an optimal data processing infrastructure
+made VDI a more endearing technology. The introduction of high capacity and multi-tiered networks with
+matching speeds and protocols add to the evidenced improved performance of virtual desktops [38] [19].
+Security solutions that provide multi-tiered security from the datacenter, over the network and down to the
+user endpoint cover all the pain points of earlier VDI implementations and therefore endear many
+organizations to the idea of VDI adoption. Taking performance further, present day VDI allows
+organizations to attain and retain industry compliance standards by the implementation of verified and
+audited PCI or HIPAA HITECH compliant virtual desktops at a much more reduced cost as when
+implemented without [32].
+These advancements opened a new service offering for service providers with the introduction of Desktop
+as a Service (DaaS). This makes it easier for businesses to opt for cloud based virtual desktops that are
+both scalable and cost effective with minimal in-house support required. This allows the in-house IT team
+to focus on more productive tasks as the heavy lifting of the desktop services infrastructure has been taken
+off them. This approach also affords organizations the opportunity to have VDI experts at their service and
+can thus discuss their future requirements to get a near accurate forecast of cost and performance level to
+expect [37].
+
+2.3.1. VDI: Applications and Considerations
+Virtualization and its applications have recently become popular and more utilized by different industries
+and organizations to reduce their baseline costs and provide desktop services amongst others to their end
+users or clients. This recent turn towards hosting services on virtualized infrastructure stems from the fact
+that infrastructure owners have come to the realization that more value can be gotten from their present
+infrastructure with the right technology and technical know-how [5]. The problems associated with the
+traditional desktop services delivery [25] including high energy costs, IT peripherals expenses,
+unmanaged data storage and performance are greatly reduced if not completely eliminated with the move
+to VDI.
+
+2.3.2. Case for VDI
+It is imperative to concisely discuss the pros that virtualized desktop services bring to the highlighted
+problems associated with the traditional desktop services delivery and provide researched evidence
+showing the benefits. The benefits of VDI can be categorized into cost and operational benefits.
+Most researches are of the school of thought that virtualizing desktop services would bring about
+substantial cost savings for organizations. According to a Gartner Inc. report, “virtualization will have the
+highest-impact trend changing infrastructure and operations through the year 2012 and beyond” [5]. The
+demand for virtualization has even exceeded that report’s estimations due to its resultant effect of
+drastically reducing the number of physical servers which leads to cost savings on power utilization and
+resource distribution, while maximizing capacity of existing server architectures. The Total Cost of
+Ownership (TCO) is also greatly reduced as 50% of the TCO of a personalized computing organization is
+claimed by IT support and peripheral costs. [5] [2]. More cost savings will become evident once the
+transition from individualized licensing and security to central management is completed.
+The operational benefits of implementing a VDI throughout an organization are well documented [22]
+[24] [46]. The most important yet basic affordance of VDI is the ease and flexibility of end user
+ownership. This means that all end users will get a standard yet consistent virtualized desktop services
+experience irrespective of the geographical location and the device used for accessing the VDI services.
+The security of organizational data is paramount to any technology decision and this is where VDI
+becomes most beneficial. As the provisioning, storage and support of all virtual desktops are centrally
+managed, so also is the security of the VDI. Policies can be configured to dictate the behavior and
+accessibility into and out of the virtual environment. Installation of application can be done centrally and
+limited to only power users while all end users are presented with a standard bouquet of desktop services
+out of the box.
+
+
+2.3.3. Case against VDI
+It is also important to discuss the cases against implementation of VDI for organizations. A common place
+argument is the fact that management of virtual desktop systems are difficult to manage. As highlighted by
+Carlson (2014), “Virtual desktop implementations and management are time consuming, requires different
+difficult processes and there is the constant worry about breach of data security.” [42]. As is the case with
+all high security deployments, any VDI is only as good and secure as its implementation. With only local
+access, the level of security threats stays compact but in the case that the VDI was implemented for remote
+access, the threat level is increased and several security measures have to be put in place and monitored
+for Zero-Day threats [43]. Different firewall zones, DMZ and access lists need to be created to control
+internal and external access, and ensure that sensitive data remains in the data center. The argument here is
+that systems administrators usually watch the datacenter domain with the same level of security as is
+required (more or less) for VDI.
+Another argument against VDI is the fact that a VDI implementation is only considered optimal if there is
+high availability and redundancy. This means replicating the same exact expensive production VDI setup
+to only serve as the failover of the entire infrastructure. Anything short of this is considered risky as any
+failure or security breach in the production VDI environment brings the services to a halt and as such
+defeats the purposes of VDI. This high capital expenditure (CAPEX) is the usual deal breaker for most
+organizations looking to consider a move to VDI [46] [3] [7].
+
+
+3. VDI Technology Alternatives
+Virtual desktop implementation is not some standalone unique technology that is making its way into the
+computing world but actually a result of combining the best parts of some legacy technologies, combining
+them and adding extra functionalities for a smoother experience. Some of the legacy technologies in focus
+can also be considered as alternatives to VDI and can be used to implement desktop services with similar
+features as the VDI. Examples include the following:
+a. Remote Desktop Services (RDS): This is a Microsoft Windows technology which allows a
+windows server provide users access to Windows-based applications or a complete Windows
+desktop. The applications or the windows desktops are installed on a Remote Desktop Session
+Host (RD Session Host) and can be accessed within a local network or over the internet. RDS
+offers some of the Pros of a full scale VDI like central management and low OPEX. Its major con
+is the lack of flexibility in the technology being that it isn’t future-proof [35].
+b. Session-based Virtualization: Users access different sessions to one desktop environment in a
+virtualized server. The difference to VDI is that only one desktop environment is utilized by all users
+via sessions instead of the separate desktop environment per user that is the case with VDI. It is also
+generally easier to set up for low number users session environment as sessions of up to 100 users do
+not require the use of a hypervisor. Larger implementations are achieved by hosting the shared desktop
+environment in a virtual machine within a server. Multiple Virtual machines on several servers can be
+combined to carry out the deployment of thousands of users and as such scale up [10] [37].

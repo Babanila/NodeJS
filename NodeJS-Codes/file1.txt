@@ -1,0 +1,45 @@
+You are loved
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DEMO !!!</title>
+</head>
+
+<body>
+    <h1> The Hungry Valley ......</h1>
+    <p>
+    Now he fed his horses too much rich corn sweetened with molasses: their middles were round and taut as barrels, and their hooves curled, and instead of nipping and tossing about like they had in the past, they loitered at the gate all day, calling out to him whenever he passed. His old dog he fed too much kibble and too many table scraps: its back was strangely broad and thin of hair like a threadbare piece of overstuffed furniture, and it could no longer move quickly nor jump with ease. The cats lapped milk from pie tins on the barn floor, and they ate the mice and rats that came for the sacks of corn so that they, too—the cats as well as the mice and rats—were quite fat, though not as fat as the dog or horses and much more nimble.
+
+    The dog ate the headless mice and rats the cats left and sometimes carried a body around in its mouth for hours—growling at the man when he tried to take it away—before burying it shallowly in a field and then, days later, unearthing the thing, pulpy and ripe, to roll back and forth across it, smearing its fur with a reeking blackish paste.
+
+    In summer ticks fastened to the dog’s ears and tail, slowly swelling with its blood until they were plump as grapes, their own weight dropping them to earth again. The man would step on them when they lay helpless and bloated upon the drive, a small red burst on the bottom of his boot. Large, thick-legged flies bit the horses where their tails couldn’t twitch, and when the man stood near, talking to them or feeding them soft apples and old split carrots, the flies bit him, too.
+
+    Mosquitoes and fleas drank quietly from them all, day and night.
+
+    At one time there were five horses: one for each member of the man’s family. His daughter’s horse, when it arrived, had needed gelding. The man sat on the horse’s head while the veterinarian worked, tossing what he cut to the dogs—different ones then, who snarled over the steaming heap—the horse rising trembling to its feet, casting its wild eyes all around.
+
+    When the man’s children were small they carried the barn cats around like sacks of grain and dressed them in dolls’ clothes. They watched the mothers give birth and they tamed the litters, but once—maybe because they touched those kittens too early, or maybe because that particular mother cat was a wild, moody thing that showed up one day and left again, just as sudden, years later, never letting them pet or dress her, never lapping the milk they gave—the mother had eaten her kittens whole, so swiftly they could only watch, four soft bodies no larger than the mice she swallowed nose to tail day after day, for she was the best mouser they ever had.
+
+    Behind the house was a small pond, and in the early mornings and early evenings the man cast a line into it. The plain surface puckered as insects landed and fish rose to swallow them. He unearthed worms and skewered them on his hook, wiping their gray insides from his hands onto the wet grass, and when he caught small fish he cut them to pieces and with those caught the larger ones. He fried his catch at night and tossed the guts to the cats and let the dog lick his plate clean.
+
+    He’d hunted the deer, made stew and jerky of them, but now only watched them from the kitchen window, noting their individual markings and how many young they produced each spring, and the deer forgot to be afraid of him and grazed languidly on the lawn, leaping easily from sight when the fat dog caught their scent.
+
+    When his wife was alive she asked for bird feeders near the kitchen window. He said birds did not need a human’s idea of what they should eat but built them anyway—several wooden houses painted to match their own, heaped with seed—and when the birds came he liked it so well that after his wife died he continued to feed them and also bought a bright red plastic tube he filled with sugar water for hummingbirds, though they should have been pollinating his flowers instead.
+
+    His wife was an excellent cook. Her pots and pans hung from the kitchen ceiling like coppery fruits, dull with disuse now, for the man, alone, used only the old cast iron skillet from his bachelorhood, never washing it, only wiping it with an oily cloth and rinsing it under the tap from time to time; likewise he seldom bathed anymore. Most food sat uneasily so he did not eat much, but when he did, it was his wife’s food he thought of while bringing his fork to his mouth, dishes he wouldn’t taste again but thought he could remember.
+
+    —
+
+    After his children moved away and before his wife found a large, hard lump in her thigh, the man rode his daughter’s gelding each evening to the far edge of his property and back. If he did not, the horse would pace and grow sour and cause trouble for the man. They saddled in the barn and passed the pond and crossed through the woods to the top of the ridge, where the valley spread wide and soft below them, and they descended willingly into it.
+
+    Coming back on a winter evening, the horse began suddenly to run, and the man slipped and struggled to stay on. He looked down and saw that beneath his heels loped four coyotes, two at either flank. Their mouths were open, and they snapped the air as they ran as though to taste the warm wake of flesh. They looked him in the eye. He had never been afraid of coyotes, but now he felt his heart beating in his head and the rough breath heaving in the lungs between his legs. When his house came into view at the top of the hill, its windows glowing yellow in the violet dusk, his wife a shadow moving from room to room, the coyotes disappeared as quickly as they’d come.
+
+    At dinner the man told his wife about them, but she only smiled and said how marvelous, to see them up close like that! She sat brushing her hair before bed, thinking of her husband with affection, since he seldom shared uncertainty with her. But in the night she woke to their wild cries, a sound both human and animal, a wailing she recognized. Though the man continued to sleep, a dweller in another world, she rose and went to the window and looked out to the shining pond, the moon-white fields, and as she listened, the walls of her house dropped away like a scrim, casting her—unclothed, unfed, soft and blind as an infant—into the cold and widening dark.
+
+    “The Hungry Valley” appears in our Winter 2016 issue, out soon. Read more about the issue here.
+    </p>
+</body>
+</html>
+
+
