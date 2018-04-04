@@ -10,6 +10,7 @@ var server = http.createServer(function(req, res){
 });
     server.listen(8080);
 // End of code
+*/
 
 // Beginning
 var Readable = require ('stream').Readable;
@@ -21,7 +22,7 @@ rs.push('Dog \n');
 rs.push(null);
 rs.pipe(process.stdout);
 // Ending
-
+/*
 // Beginning
 var Readable = require('stream').Readable;
 var rs = Readable();
@@ -47,10 +48,12 @@ process.stdin.on('readable', function () {
 
 // Code below to show how it works
 //(echo abc; sleep 1; echo def; sleep 1; echo ghi) | node streamPractice.js
-*/
+
 
 var sam = function(a,b){
     return  `The sum of the value is ${a+b}` ;// ES6 method `
 };
 
 console.log(sam(2,3));
+
+*/
