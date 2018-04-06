@@ -8,7 +8,7 @@ var server = http.createServer(function(req, res){
         name: 'Babanila',
         profession: 'Programmer/Developer',
         age: 30
-    }
+    };
             res.end(JSON.stringify(myObject));
 });
-    server.listen(8080);
+    server.listen(3000);
