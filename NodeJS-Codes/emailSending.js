@@ -1,5 +1,4 @@
-
-// Direct Email sending without security
+// Direct Email sending with security
 var nodemailer = require('nodemailer');
 var nconf = require('nconf');
 
@@ -16,7 +15,7 @@ var mailDetails = {
     from: nconf.get('GMAIL_USER'),
     to: nconf.get('RECEIVER'),
     subject: 'Using Node.js to send email',
-    text: 'Trying out new things bcos my God is able. Programming is sweet '
+    text: 'Trying out new things bcos my God is able. Programming is sweet'
 };
 
 transporter.sendMail(mailDetails, function(err, data){

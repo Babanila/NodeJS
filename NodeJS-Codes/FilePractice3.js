@@ -9,7 +9,6 @@ var server = http.createServer(function(req, res){
         console.log('Connection created and connected');
 });
 server.listen(3000, '127.0.0.1');
-// server.listen(8080);
 // End of code
 
 
