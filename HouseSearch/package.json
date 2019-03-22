@@ -1,0 +1,18 @@
+{
+  "name": "house-statistics-app",
+  "version": "1.0.0",
+  "description": "This app is used for sorting house data.",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Babajide Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "pretty-error": "^2.1.1",
+    "yargs": "^13.2.2"
+  }
+}
